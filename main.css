@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght500;600;700&display=swap");
+body {
+  font-family: "Rubik", sans-serif;
+}
+.container {
+  width: 100%;
+  height: 280px;
+  flex-shrink: 0;
+  z-index: 0;
+  background-image: url("images/Combined\ Shape.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  position: relative;
+}
+.container h1 {
+  color: #fff;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: -0.286px;
+  padding-top: 22px;
+  padding-left: 35px;
+}
+.container input {
+  width: 555px;
+  height: 58px;
+  flex-shrink: 0;
+  border-radius: 15px;
+  background: #fff;
+  box-shadow: 0px 50px 50px -25px rgba(0, 0, 0, 0.1);
+  padding-left: 24px;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+.container img {
+  position: absolute;
+  top: 100px;
+  right: 450px;
+  cursor: pointer;
+}
+.main {
+  width: 1110px;
+  height: 161px;
+  flex-shrink: 0;
+  border-radius: 15px;
+  background: #fff;
+  box-shadow: 0px 50px 50px -25px rgba(0, 0, 0, 0.1);
+  display: flex;
+  padding-top: 37px;
+  gap: 20px;
+  text-align: center;
+  margin-left: 230px;
+  transform: translateY(-80px);
+}
+.first {
+  text-align: center;
+  padding-left: 250px;
+  cursor: pointer;
+}
+.first p {
+  color: #2c2c2c;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 1.75px;
+  text-transform: uppercase;
+}
+.first h1 {
+  color: #2c2c2c;
+  font-size: 26px;
+  padding-top: 30px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: -0.232px;
+}
+.second {
+  text-align: center;
+  padding-left: 65px;
+  cursor: pointer;
+}
+.second p {
+  color: #2c2c2c;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 1.75px;
+  text-transform: uppercase;
+}
+.second h1 {
+  padding-top: 30px;
+  color: #2c2c2c;
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: -0.232px;
+}
+.third {
+  text-align: center;
+  padding-left: 65px;
+  cursor: pointer;
+}
+.third p {
+  color: #2c2c2c;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 1.75px;
+  text-transform: uppercase;
+}
+.third h1 {
+  padding-top: 30px;
+  color: #2c2c2c;
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: -0.232px;
+}

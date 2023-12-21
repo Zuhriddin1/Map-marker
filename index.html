@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ip tracker</title>
+    <link rel="stylesheet" href="main.css" />
+    <script
+      src="https://api-maps.yandex.ru/2.1/?apikey=a6c7fb20-038a-4504-a7ab-25e395ce2cc1&lang=en_US"
+      type="text/javascript"
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>IP Address Tracker</h1>
+      <input placeholder="Search for any IP address or domain" type="text" />
+      <img src="images/arrow.svg" alt="" />
+      />
+    </div>
+    <div class="main">
+      <div class="first">
+        <p>IP Address</p>
+        <h1>Loading</h1>
+      </div>
+      <div class="second">
+        <p>Location</p>
+        <h1>Loading</h1>
+      </div>
+      <div class="third">
+        <p>Timezone</p>
+        <h1>Loading</h1>
+      </div>
+    </div>
+    <div id="map" style="width: 100%; height: 400px"></div>
+    <script src="app.js"></script>
+  </body>
+</html>
